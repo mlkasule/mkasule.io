@@ -1,0 +1,40 @@
+    <div class="split-container-1 container shadow p-3 mb-5 bg-white rounded">
+      <div class="split-box-1">
+        <blockquote class="blockquote text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="high1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Recent Projects</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </blockquote>
+      </div>
+      <div class="split-box-2">
+        <blockquote class="blockquote text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="dog2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Recent Projects</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+      <div class="split-box-3">
+        <blockquote class="blockquote text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="roadtrip.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Recent Projects</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </blockquote>
+      </div>
+    </div>
