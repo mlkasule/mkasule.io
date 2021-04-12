@@ -56,9 +56,9 @@
         <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
           <a class="navbar-brand" href="index.html">
             <img
-              src="mkasulelogo.png"
-              width="90"
-              height="30"
+              src="mlkasule-logo-white-bg.png"
+              width="150"
+              height="50"
               class="d-inline-block align-top"
               alt=""
             />
@@ -455,30 +455,36 @@
               </h6>
             </div>
             <div class="row" style="text-align: center; justify-content: center; width: 100%;">
+              
               <!--php file-->
-            
-              <form class="contact-form" method="post" action="send.php">
+
+  
+              <form class="contact-form" method="POST" action="process-form.php">
                 <div class="form-group">
-                  <input type="text" name="" id="names" class="form-control" placeholder="Your Name" aria-describedby="helpId" required>
+                  <input type="text" name="fullName" id="names" class="form-control" placeholder="Your Name" aria-describedby="helpId" required>
                   <span class="error"><?php nameErr ?></span>
                 </div>
                 <div class="form-group">
-                 <input type="email" name="email" id="emails" class="form-control" placeholder="Your Email" aria-describedby="helpId" required>
+                <input type="email" name="Email" id="emails" class="form-control" placeholder="Your Email" aria-describedby="helpId" required>
                   <span class="error"><?php emailErr ?></span>
                 </div>
                 <div class="form-group">
-                  <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" aria-describedby="helpId" required>
-                 </div>
+                  <input type="text" name="Subject" id="subject" class="form-control" placeholder="Subject" aria-describedby="helpId" required>
+                </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="text-area" id="message" rows="4" placeholder="Your Message" value="message" required></textarea>
+                  <textarea class="form-control" name="msg" id="message" rows="4" placeholder="Your Message" value="message" required></textarea>
                   <span class="error"><?php messageErr ?></span>
                 </div>
-                <button type="submit" name="submit" id="contact-button" class="btn btn-outline-light">Submit</button>
+                <button type="submit" name="btn-send" id="contact-button" class="btn btn-outline-light">Submit</button>
                 <div class="success"><?= $success;?></div>
               </form>
+
+              
               
             </div>
+            
           </div>
+          
         </div>
       </div>
     </section>
